@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "mspOfferName": {
+      "value": "Cipher Lighthouse"
+    },
+    "mspOfferDescription": {
+      "value": "Azure Managed Cloud Services"
+    },
+    "managedByTenantId": {
+      "value": "2b8e0d26-7218-41a4-acc4-69b7e6ef6309"
+    },
+    "authorizations": {
+      "value": [
+        {
+          "principalId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+          "roleDefinitionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+          "principalIdDisplayName": "Group Display Name"
+        }
+      ]
+    },
+    "eligibleAuthorizations": {
+      "value": [
+        {
+          "principalId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+          "roleDefinitionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+          "principalIdDisplayName": "Group Display Name"
+        }
+      ]
+    }
+  }
+}
+
+
